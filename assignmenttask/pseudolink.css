@@ -1,0 +1,11 @@
+a:link {
+  color: red;
+  margin: 30px;
+}
+
+a:visited {
+  color: burlywood;
+}
+a:active {
+  color: chartreuse;
+}

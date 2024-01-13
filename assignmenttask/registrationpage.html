@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="registration.css" />
+    <style>
+      .main2 {
+        color: blue;
+      }
+      input {
+        border-color: blue;
+        color: blue;
+      }
+      .sec {
+        border-color: blue;
+        color: blue;
+      }
+      button {
+        background-color: cadetblue;
+      }
+    </style>
+  </head>
+  <body style="background-color: skyblue">
+    <form>
+      <h3 class="main">user particulars</h3>
+      <center>
+        <table class="main2">
+          <tr>
+            <td>
+              <label for="login"><span>*</span>Login id</label>
+            </td>
+            <td><input type="text" /></td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="Password"><span>*</span>Password</label>
+            </td>
+            <td><input type="password" /></td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="cnfpwd"><span>*</span>Confirm Password</label>
+            </td>
+            <td><input type="password" /></td>
+          </tr>
+        </table>
+      </center>
+
+      <h3 class="main">Personal particulars</h3>
+
+      <center>
+        <table class="main2">
+          <tr>
+            <td>
+              <label for="select"><span>*</span> Situation</label>
+            </td>
+            <td>
+              <select class="sec">
+                <option value="select">Select</option>
+                <option value="select">MR.</option>
+                <option value="select">MS.</option>
+                <option value="select">MRS.</option>
+              </select>
+            </td>
+
+            <td>
+              <label for="fname"><span>*</span> First Name</label>
+
+              <input type="text" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="mdlname"><span>*</span> Middle name</label>
+            </td>
+            <td>
+              <input type="name" />
+            </td>
+
+            <td>
+              <label for="lastname"><span>*</span> Last Name</label>
+
+              <input type="text" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="residencial status"
+                ><span>*</span> Resident Status</label
+              >
+            </td>
+            <td>
+              <select class="sec">
+                <option value="select">Select</option>
+                <option value="select">permanent</option>
+                <option value="select">Rental</option>
+                <option value="select">other</option>
+              </select>
+            </td>
+
+            <td>
+              <label for="country"><span>*</span>Country</label>
+
+              <select class="sec">
+                <option value="">INDIA</option>
+                <option value="">U.K.</option>
+                <option value="">U.S.A</option>
+                <option value="">DUBAI</option>
+                <option value="">BRAZIL</option>
+                <option value="">GERMANY</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="email"><span>*</span>Email-id</label>
+            </td>
+            <td>
+              <input type="email" />
+            </td>
+
+            <td>
+              <label for="mobno"><span>*</span>Mobile no.</label>
+
+              <input type="tel" />
+            </td>
+          </tr>
+        </table>
+      </center>
+
+      <h3 class="main">Account particulars</h3>
+      <center>
+        <table class="main2">
+          <tr>
+            <td>
+              <label for="accno"><span>*</span>15 Digit Account no.</label>
+            </td>
+            <td>
+              <input type="number" />
+            </td>
+
+            <td>
+              <label for="nick"><span>*</span>NICK NAME</label>
+            </td>
+            <td>
+              <input type="text" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="fndtrf"><span>*</span>Fund transfer</label>
+            </td>
+            <td>
+              <select class="sec">
+                <option value="select">Select</option>
+                <option value="IMPS">IMPS</option>
+                <option value="NEFT">NEFT</option>
+                <option value="CREDIT/DEBIT">CREDIT/DEBIT</option>
+              </select>
+            </td>
+          </tr>
+        </table>
+      </center>
+
+      <h3 class="main">Declaration</h3>
+      <p style="color: blue">
+        I hereby declare that the information given by me in the Application is
+        true, complete and correct to the best of my knowledge and belief and
+        that nothing has been concealed or distorted. declare that this thesis
+        has been composed solely by myself and that it has not been submitted,
+        in whole or in part, in any previous application for a degree. Except
+        where states otherwise by reference or acknowledgment, the work
+        presented is entirely my own.
+      </p>
+      <center>
+        <input type="button" value="submit" />
+        <input type="button" value="Reset" />
+      </center>
+    </form>
+  </body>
+</html>
